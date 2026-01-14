@@ -34,6 +34,7 @@ export const metadata: Metadata = {
 };
 
 import Header from "@/components/Header";
+import ScrollProgress from "@/components/ScrollProgress";
 import Footer from "@/components/Footer";
 
 const geistSans = Geist({
@@ -61,7 +62,8 @@ export default function RootLayout({
           Dramatic: bg-gradient-to-bl from-black via-indigo-950/40 to-cyan-950/60
          */}
         <Header />
-        <main className="-mt-(--navbar-h)">{children}</main>
+        <ScrollProgress />
+        <main className="">{children}</main>
       </body>
     </html>
   );

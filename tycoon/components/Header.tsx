@@ -52,7 +52,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 z-50 w-full border-b-1 border-(--cyan) backdrop-blur-sm">
+      <header className="fixed top-0 left-0 bg-[#010F10] z-[1000] w-full border-b-1 border-[#003B3E]/50 backdrop-blur-xl">
         <div className="mx-auto flex h-(--navbar-h) w-full max-w-7xl items-center justify-between gap-2 px-(--section-px) sm:px-(--section-px-sm) lg:px-(--section-px-lg)">
           {/* Left: Menu + Logo */}
           <div className="flex items-center gap-4">
